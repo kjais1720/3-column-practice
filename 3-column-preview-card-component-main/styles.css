@@ -9,21 +9,13 @@ h2{
     color: white;
 }
 
-button{
+.btn{
     border-radius: 2cm;
     padding: 7px 25px ;
     border: none;
     outline: none;
 }
 
-
-button:active{
-    box-shadow: 1px 0 0 hsl(0, 0%, 60%),
-    2px 0 0 hsl(0, 0%, 70%),
-    3px 0 0 hsl(0, 0%, 80%),
-    4px 0 0 hsl(0, 0%, 90%),
-    5px 0 0 hsl(0, 0%, 100%);
-}
 
 @media (max-width: 764px){
     body{
@@ -55,7 +47,7 @@ img{
     border:none;
 }
 
-.card-1 button{
+.btn-1{
     color: hsl(31, 77%, 52%)
 }
 
@@ -78,7 +70,7 @@ img{
     border: none;
 }
 
-.card-2 button{
+.btn-2{
     color: hsl(184, 100%, 22%);
 }
 
@@ -91,7 +83,7 @@ img{
     border: none;
 }
 
-.card-3 button{
+.btn-3{
     color: hsl(179, 100%, 13%);
 }
 
